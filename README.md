@@ -11,3 +11,5 @@ It litteraly serves no purpose what so ever
 Enjoy this useless piece of code that will not change your life in anyway
 
 also its my first program dont be to harsh :3
+
+(now works in windows and linux)
