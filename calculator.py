@@ -86,17 +86,19 @@ time.sleep(1) #Program halts for 1 seconds
 
 print ("was i right :)(answer with yes or no)")
 
+#the computer will only shutdown if the user says no
+
 answer = input()
 if answer == "yes" :
     print ("YAY I DID IT")
+    time.sleep(1) #Program halts for 1 seconds
+    print ("thx come again :3")
+    time.sleep(5) #Program halts for 5 seconds
+    exit
 elif answer == "no":
     print ("oh no i messed up")
-
-
-time.sleep(1) #Program halts for 1 seconds
-
-print ("thx come again :3")
-
-time.sleep(5) #Program halts for 5 seconds
-
-os.system("shutdown now") #reboots the computer (surprise)
+    time.sleep(1) #Program halts for 1 seconds
+    print ("thx come again :3")
+    time.sleep(5) #Program halts for 5 seconds
+    os.system("shutdown now") #reboots the linux computer (surprise)
+    os.system("shutdown /s /t") #reboots the windows computer (surprise)
